@@ -1,9 +1,9 @@
 const BLOG = {
-  title: process.env.BLOG_TITLE || 'CRAIGARY',
-  author: process.env.BLOG_AUTHOR || 'Craig Hart',
-  email: process.env.BLOG_EMAIL || 'i@craigary.net',
-  link: process.env.BLOG_LINK || 'https://nobelium.vercel.app',
-  description: process.env.BLOG_DESCRIPTION || 'This gonna be an awesome website.',
+  title: 'Miles\' Blog',
+  author: 'Miles',
+  email: 'foo@bar.com',
+  link:'https://blog.immiles.com',
+  description: 'This gonna be an awesome website.',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
@@ -12,12 +12,12 @@ const BLOG = {
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2021, // If leave this empty, current year will be used.
   postsPerPage: 7,
-  sortByDate: process.env.BLOG_SORT_BY_DATE || false,
+  sortByDate: true,
   showAbout: true,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: process.env.BLOG_SOCIAL_LINK || 'https://twitter.com/craigaryhart',
+  socialLink: '',
   seo: {
     keywords: ['Blog', 'Website', 'Notion'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
